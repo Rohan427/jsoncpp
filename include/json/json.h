@@ -6,6 +6,10 @@
 #ifndef JSON_JSON_H_INCLUDED
 #define JSON_JSON_H_INCLUDED
 
+#if __cplusplus == 199711L
+#define IS_CXX98
+#endif
+
 #include "config.h"
 #include "json_features.h"
 #include "reader.h"

@@ -9,10 +9,10 @@
 // 3. /CMakeLists.txt
 // IMPORTANT: also update the SOVERSION!!
 
-#define JSONCPP_VERSION_STRING "00.11.0"
+#define JSONCPP_VERSION_STRING "00.11.4"
 #define JSONCPP_VERSION_MAJOR 00
 #define JSONCPP_VERSION_MINOR 11
-#define JSONCPP_VERSION_PATCH 0
+#define JSONCPP_VERSION_PATCH 4
 #define JSONCPP_VERSION_QUALIFIER
 #define JSONCPP_VERSION_HEXA                                                   \
   ((JSONCPP_VERSION_MAJOR << 24) | (JSONCPP_VERSION_MINOR << 16) |             \

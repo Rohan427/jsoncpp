@@ -449,10 +449,17 @@ Value& Value::operator=(Value&& other) {
 }
 #endif
 
+#if IS_CXX98
 void Value::swapPayload(Value& other) {
   std::swap(bits_, other.bits_);
   std::swap(value_, other.value_);
 }
+#else
+void Value::swapPayload(Value& other) {
+  std::swap(bits_, other.bits_);
+  std::swap(value_, other.value_);
+}
+#endif
 
 void Value::copyPayload(const Value& other) {
   releasePayload();

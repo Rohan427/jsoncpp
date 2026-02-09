@@ -87,7 +87,7 @@ endmacro()
 # 2. ./include/json/version.h
 # 3. ./CMakeLists.txt
 # IMPORTANT: also update the JSONCPP_SOVERSION!!
-set( JSONCPP_VERSION 00.11.0 )
+set( JSONCPP_VERSION 00.11.4 )
 set( JSONCPP_SOVERSION 23 )
 jsoncpp_parse_version( ${JSONCPP_VERSION} JSONCPP_VERSION )
 message(STATUS "JsonCpp Version: ${JSONCPP_VERSION_MAJOR}.${JSONCPP_VERSION_MINOR}.${JSONCPP_VERSION_PATCH}")
